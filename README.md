@@ -6,7 +6,7 @@ pod で firebase を追加する際のpodファイルの書き方について
 **iOSで共有Frameworkを利用した際に、podで追加したFirebaseが競合しクラッシュしてしまう問題の解決**
 https://qiita.com/beckyJPN/items/bfe5829a0dd4f2adf506
 
-## Google-service
+## 注意事項
 `GoogleService-Info.plist`
 をコミットに追加していないため、ビルドは通りません
 
