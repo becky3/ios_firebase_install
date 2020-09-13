@@ -1,0 +1,15 @@
+
+
+workspace 'myApps'
+
+target 'myLibrary' do
+  project '../myLibrary/myLibrary.xcodeproj'
+  pod 'Firebase/Core'
+
+  target 'myApps' do
+    project 'myApps.xcodeproj'
+    use_frameworks!
+    inherit! :search_paths
+  end
+
+end
