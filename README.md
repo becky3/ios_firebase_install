@@ -8,7 +8,7 @@ https://qiita.com/beckyJPN/items/bfe5829a0dd4f2adf506
 
 ## 注意事項
 `GoogleService-Info.plist`
-をコミットに追加していないため、ビルドは通りません。
+をプロジェクトに追加していないため、ビルドは通りません。
 
 `myApps`
 直下に、ご自身の `GoogleService-Info.plist` を追加することで
